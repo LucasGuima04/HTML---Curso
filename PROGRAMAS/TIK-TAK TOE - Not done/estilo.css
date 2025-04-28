@@ -1,0 +1,67 @@
+body {
+    background-color: aliceblue;
+    font: normal 23px Arial;
+}
+
+header {
+ text-align: center
+}
+
+section {
+    background: rgb(240, 239, 239);
+    border-radius: 10px;
+    padding: 15px;
+    width: 330px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+button {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: black;
+    color: blue;
+   }
+
+.row1, .row2, .row3 {
+   clear:both;
+
+}
+
+#cell1,#cell2,#cell3 {
+   width:100px;
+   height:100px;
+   border:3px solid rgb(25, 191, 197);
+   float: left;
+    color: white;
+    background-color: black;
+}
+
+#cell4,#cell5,#cell6 {
+   width:100px;
+   height:100px;
+   border:3px solid rgb(25, 191, 197);
+   float: left;
+    color: white;
+    background-color: black;
+}
+
+#cell7,#cell8,#cell9 {
+   width:100px;
+   height:100px;
+   border:3px solid rgb(25, 191, 197);
+   float: left;
+    color: white;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}

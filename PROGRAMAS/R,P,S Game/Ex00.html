@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+         <h1>Rock & Paper & Scissors Game</h1> 
+    </header>
+    <section>
+        <div class="topHead">
+            <strong> CHOSE A HAND</strong>
+        </div>
+        <div class="lowerHead">
+            <button id="rock" class="div1" onclick=executeGame1()>&#x1F44A;</button>
+            <button id="paper" class="div1" onclick=executeGame2()>&#x270B;</button>
+            <button id="scissors" class="div1" onclick=executeGame3()>&#9996;</button>
+            
+        </div>
+    </section>
+    <h1 id="botAIHead">Bot's Choice</h1>
+    <div id="botAI">
+        <p id="botAIParagraph"></p>
+        <p id="botAIParagraph2"></p>
+    </div>
+    <button id="resetButton" onclick=Reset()>Reset</button>
+    <footer>
+        <p>&copy; All rights reseverd to Force corp.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

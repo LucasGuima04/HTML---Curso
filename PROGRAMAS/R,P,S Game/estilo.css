@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to right, #000000, #636b66);
+    font: normal 23px Arial; color: rgba(0, 153, 255, 0.911);
+
+}
+
+header {
+ text-align: center
+}
+
+section {
+    background: linear-gradient(to right, #d6e7f0, #636b66);
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    height: 300px;
+}
+
+footer {
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    padding: 10px
+}
+
+.topHead {
+    text-align: center;
+    font: normal 40px palatino-semi-bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button.div1 {
+    position: absolute;
+    top: 33%;
+    transform: translate(-50%, -50%);
+    width: 229px;
+    font-size: 150px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button#rock {
+    left: 37%;
+}
+button#paper{
+    left: 50%;
+}
+button#scissors {
+    left: 63%;
+}
+
+button.div1:hover {
+    border: 3px black solid;
+    border-radius: 5px;
+}
+div#botAI {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000000;
+    padding: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    background: linear-gradient(to right, #d6e7f0, #636b66);
+    border-radius: 7px;
+    color: black;
+    width: 300px;
+    height: 250px;
+
+}
+p#botAIParagraph {
+    position: absolute;
+    left: 50%;
+    top: -26%;
+    transform: translate(-50%, -50%);
+    font: normal 150px Arial;    
+}
+p#botAIParagraph2 {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    font: normal 23px Arial;
+}
+
+h1#botAIHead {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+button#resetButton {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font: normal 30px Arial;
+    background-color: #636b66;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

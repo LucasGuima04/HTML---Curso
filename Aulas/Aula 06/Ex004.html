@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+font: normal 18pt Arial;
+background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programinha do Luk Force</h1>
+    <script>
+        //Script para fazer conversão monetaria(tem q ser atualizado manualmente)
+        var br1 = Number(prompt('Quantos BRL vc tem ae?'))
+        var usd1 = Number(br1*5.14)
+        var aud1 = Number(br1*3.69)
+        var nzd1 = Number(br1*3.44)
+        document.writeln('De BRL para USD = ' + usd1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) + '<br/>')
+        document.writeln('De BRL para AUD = ' + aud1.toLocaleString('pt-BR', {style: 'currency', currency: 'AUD'}) + '<br/>')
+        document.write('De BRL para NZD = ' + nzd1.toLocaleString('pt-BR', {style: 'currency', currency: 'NZD'}) + '<br/>')
+    </script>
+</body>
+</html>

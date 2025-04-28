@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+    font: normal 23px Arial;
+}
+
+header {
+ text-align: center
+}
+
+section {
+    background: rgb(240, 239, 239);
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    height: auto;
+}
+input#Num1::-webkit-outer-spin-button,    /*Tirar as setinhas do lado do input:number*/
+input#Num1::-webkit-inner-spin-button {   /*Tirar as setinhas do lado do input:number*/
+  -webkit-appearance: none;
+  margin: 0;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+}
